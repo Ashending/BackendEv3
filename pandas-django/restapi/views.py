@@ -6,8 +6,9 @@ from .models import Cliente
 from .serializers import ClienteSerializer
 from .filters import ClienteFilter
 
-# Create your views here.
-
+"""
+Vista usando django_filters para los campos 'genero', 'estado_actividad', 'nivel_satisfaccion'
+"""
 class ClienteListCreateView(generics.ListCreateAPIView):
     queryset = Cliente.objects.all()
     serializer_class = ClienteSerializer

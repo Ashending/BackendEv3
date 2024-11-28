@@ -1,3 +1,8 @@
+'''
+Este script importa los datos de csv a la base de datos sqlite3
+creada generada por django
+'''
+
 import sqlite3
 import csv
 
