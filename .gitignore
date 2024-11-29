@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+banco-react/node_modules
+banco-react/.pnp
+banco-react/.pnp.js
+
+# testing
+banco-react/coverage
+
+# production
+banco-react/build
+
+# misc
+banco-react/.DS_Store
+banco-react/.env.local
+banco-react/.env.development.local
+banco-react/.env.test.local
+banco-react/.env.production.local
+
+banco-react/npm-debug.log*
+banco-react/yarn-debug.log*
+banco-react/yarn-error.log*
